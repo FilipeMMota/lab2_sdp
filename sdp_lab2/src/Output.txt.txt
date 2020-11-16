@@ -1,0 +1,156 @@
+Output do Cliente
+
+"C:\Program Files\Java\jdk-15\bin\java.exe" -javaagent:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\lib\idea_rt.jar=53846:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\bin -Dfile.encoding=UTF-8 -classpath C:\Users\filip\IdeaProjects\sdp_lab2\out\production\sdp_lab2 doc_sdp.Client
+Connection established
+R UAL UAL
+Item registered with success.
+R SDP Sistemas distribuídos e paralelos
+Item registered with success.
+R POO Programação Orientada a Objetos
+Item registered with success.
+R AP algoritmia e Programação
+Item registered with success.
+C UAL
+UAL
+C
+An error has occurred
+R UAL UAL
+This key already exists.
+C AED
+This key doesn't exist.
+R AED Algoritmos e estruturas de dados
+Item registered with success.
+C AED
+Algoritmos e estruturas de dados
+D UAL
+Item removed with success.
+C UAL
+This key doesn't exist.
+R UAL Autonoma de Lisboa
+Item registered with success.
+C UAL
+Autonoma de Lisboa
+Q
+
+Process finished with exit code 0
+
+Output do Nó Principal com o comando L
+
+"C:\Program Files\Java\jdk-15\bin\java.exe" -javaagent:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\lib\idea_rt.jar=54031:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\bin -Dfile.encoding=UTF-8 -classpath C:\Users\filip\IdeaProjects\sdp_lab2\out\production\sdp_lab2 doc_sdp.PrincipalNode
+I'm node 0
+[started]
+New node connection - 127.0.0.1:54038
+New node connection - 127.0.0.1:54043
+New client connection - 127.0.0.1:54054
+Principal Node
+Key: SDP value: Sistemas Distribuidos e Paralelos
+
+Output do Nó Participante 1 com o comando L
+
+"C:\Program Files\Java\jdk-15\bin\java.exe" -javaagent:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\lib\idea_rt.jar=54036:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\bin -Dfile.encoding=UTF-8 -classpath C:\Users\filip\IdeaProjects\sdp_lab2\out\production\sdp_lab2 doc_sdp.ParticipantNode
+I'm node 1
+[started]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+Key: AED value: Algoritmos e Estruturas de Dados
+Key: POO value: Programação Orientada a Objetos
+Key: UAL value: Autónoma de Lisboa
+Key: AP value: Algoritmia e Programação
+
+Output do Nó Participante 2 com o comando L
+
+"C:\Program Files\Java\jdk-15\bin\java.exe" -javaagent:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\lib\idea_rt.jar=54042:C:\Users\filip\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\bin -Dfile.encoding=UTF-8 -classpath C:\Users\filip\IdeaProjects\sdp_lab2\out\production\sdp_lab2 doc_sdp.ParticipantNode
+I'm node 2
+[started]
+[The principalNode has connected]
+No items registered
+
+
+----------Versão Ubuntu----------
+
+Tivemos que atribuir estáticamente o IP que o cliente e nó participante usam para se conectarem ao Nó principal para um ip da rede da virtual box em host-only para funcionar.
+
+Output do client
+
+Connection established
+R UAL UAL
+Item registered with success.
+R SDP Sistemas distribuídos e paralelos
+Item registered with success.
+R POO Programação Orientada a Objetos
+Item registered with success.
+R AP algoritmia e Programação
+Item registered with success.
+C UAL
+UAL
+C
+An error has occurred
+R UAL UAL
+This key already exists.
+C AED
+This key doesn't exist.
+R AED Algoritmos e estruturas de dados
+Item registered with success.
+C AED
+Algoritmos e estruturas de dados
+D UAL
+Item removed with success.
+C UAL
+This key doesn't exist.
+R UAL Autonoma de Lisboa
+Item registered with success.
+C UAL
+Autonoma de Lisboa
+Q
+
+Output do Nó Principal com o comando L
+
+I'm node 0
+[started]
+New node connection - 127.0.0.1:54038
+New node connection - 127.0.0.1:54043
+New client connection - 127.0.0.1:54054
+Principal Node
+Key: SDP value: Sistemas Distribuidos e Paralelos
+
+Output do Nó Participante 1 com o comando L
+
+I'm node 1
+[started]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+[The principalNode has connected]
+Key: AED value: Algoritmos e Estruturas de Dados
+Key: POO value: Programação Orientada a Objetos
+Key: UAL value: Autónoma de Lisboa
+Key: AP value: Algoritmia e Programação
+
+
+Output do Nó Participante 2 com o comando L
+
+I'm node 2
+[started]
+[The principalNode has connected]
+No items registered
+
